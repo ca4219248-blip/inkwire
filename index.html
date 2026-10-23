@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>INKWIRE — Political cartoons, drawn in ink</title>
+<meta name="description" content="INKWIRE is an independent cartoon desk: a weekly archive of political cartoons on power, money and the public square." />
+<meta name="color-scheme" content="light dark" />
+<meta property="og:title" content="INKWIRE — Political cartoons" />
+<meta property="og:description" content="A weekly archive of political cartoons on power, money and the public square." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#top" aria-label="INKWIRE home">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 26 L6 6 L20 6 L26 12 L26 26 Z" />
+        <path d="M20 6 L20 12 L26 12" />
+        <path d="M11 26 L11 20 L21 20 L21 26" />
+      </svg>
+      <span class="brand__name">INKWIRE</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#archive" aria-current="page">Archive</a>
+      <a href="#about">About</a>
+      <a href="#subscribe">Subscribe</a>
+      <button class="theme-toggle" type="button" id="themeToggle" aria-label="Switch colour theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container grid hero__grid">
+      <div class="hero__copy reveal">
+        <p class="eyebrow hero__eyebrow">Inkwire — political cartoons</p>
+        <h1>Politics, drawn in a single line.</h1>
+        <p class="lede">A weekly archive of political cartoons on power, money and the public square — drawn by hand, in ink, and filed the morning the news breaks.</p>
+        <div class="actions">
+          <a class="btn" href="#archive">Browse the archive</a>
+          <a class="link" href="#about">About the desk &rarr;</a>
+        </div>
+      </div>
+
+      <figure class="plate hero__plate reveal">
+        <svg class="plate__art" viewBox="0 0 520 660" role="img" aria-label="A newspaper front page: a masthead, a headline, and a framed cartoon of a speaker at a lectern." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="22" y="22" width="476" height="616" rx="6" stroke-width="4"/>
+          <rect class="acc" x="50" y="52" width="74" height="10" rx="2" stroke="none"/>
+          <path d="M50 90 H360" stroke-width="13"/>
+          <path d="M50 120 H250" stroke-width="13"/>
+          <path d="M50 148 H470" stroke-width="2"/>
+          <path d="M50 184 H470" stroke-width="8"/>
+          <path d="M50 208 H470" stroke-width="8"/>
+          <path d="M50 232 H330" stroke-width="8"/>
+          <rect x="50" y="258" width="420" height="252" rx="4" stroke-width="3"/>
+          <circle cx="200" cy="330" r="21" stroke-width="4"/>
+          <path d="M158 384 q42 -40 84 0" stroke-width="4"/>
+          <rect x="150" y="382" width="100" height="92" rx="4" stroke-width="4"/>
+          <path d="M243 322 h34 M243 336 h22" stroke-width="4"/>
+          <path d="M50 536 H420" stroke-width="4"/>
+          <path d="M50 560 H360" stroke-width="4"/>
+          <path d="M50 584 H290" stroke-width="4"/>
+        </svg>
+        <figcaption><span>No. 214</span><span>Ink on paper</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= THIS WEEK ================= -->
+  <section class="feature" id="week">
+    <div class="container grid feature__grid">
+      <figure class="plate feature__art reveal">
+        <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A ballot slipping into a ballot box, with a tick on the paper." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="150" y="250" width="300" height="140" rx="6"/>
+          <path d="M250 250 H350" stroke-width="5"/>
+          <rect x="255" y="128" width="90" height="150" rx="4"/>
+          <path class="acc" d="M279 198 l15 17 l32 -38" stroke-width="7"/>
+        </svg>
+        <figcaption><span>Cartoon No. 214</span><span>Elections</span></figcaption>
+      </figure>
+
+      <div class="feature__body reveal">
+        <p class="eyebrow">This week</p>
+        <h2>The Long Count</h2>
+        <span class="meta">18 October 2026</span>
+        <p class="prose">Three days after the vote, the tally drags on and both camps claim the mandate. A pencil, a folding chair and a very patient nation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARCHIVE ================= -->
+  <section class="archive" id="archive">
+    <div class="container">
+      <div class="archive__head reveal">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h2>Every drawing, in order.</h2>
+        </div>
+        <p class="meta">214 cartoons filed since 2019. New work lands each Friday and stays here, free to read and republish with credit.</p>
+      </div>
+
+      <div class="grid cards">
+        <!-- 1 -->
+        <article class="card card--wide reveal">
+          <a class="card__link" href="#week">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A ballot slipping into a ballot box." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="150" y="250" width="300" height="140" rx="6"/>
+                <path d="M250 250 H350"/>
+                <rect x="255" y="128" width="90" height="150" rx="4"/>
+                <path class="acc" d="M279 198 l15 17 l32 -38" stroke-width="7"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Elections</span><span class="meta">18 Oct 2026</span></div>
+            <h3 class="card__title">The Long Count</h3>
+          </a>
+        </article>
+
+        <!-- 2 -->
+        <article class="card card--narrow reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A large coin with arrows moving up and down beside it." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="300" cy="215" r="120"/>
+                <circle cx="300" cy="215" r="100" stroke-width="3"/>
+                <path d="M300 150 V280"/>
+                <path d="M330 178 c-40 -14 -66 -6 -66 14 c0 22 66 12 66 34 c0 20 -26 28 -66 14"/>
+                <path class="acc" d="M140 252 V160 M120 180 l20 -22 l20 22" stroke-width="6"/>
+                <path d="M460 178 V270 M440 248 l20 22 l20 -22" stroke-width="6"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Economy</span><span class="meta">11 Oct 2026</span></div>
+            <h3 class="card__title">Hard Currency</h3>
+          </a>
+        </article>
+
+        <!-- 3 -->
+        <article class="card card--third reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A microphone with sound waves." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="270" y="106" width="60" height="116" rx="30"/>
+                <path d="M300 222 V300"/>
+                <path d="M250 300 H350"/>
+                <path d="M245 172 a55 55 0 0 0 110 0" stroke-width="4"/>
+                <path class="acc" d="M404 128 a92 92 0 0 1 0 150" stroke-width="5"/>
+                <path d="M436 104 a132 132 0 0 1 0 200" stroke-width="5"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Media</span><span class="meta">04 Oct 2026</span></div>
+            <h3 class="card__title">Opening Remarks</h3>
+          </a>
+        </article>
+
+        <!-- 4 -->
+        <article class="card card--third reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="Two overlapping circles meeting in a shaded lens." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path class="acc-wash" d="M300 127 A110 110 0 0 1 300 323 A110 110 0 0 1 300 127 Z"/>
+                <circle cx="250" cy="225" r="110"/>
+                <circle cx="350" cy="225" r="110"/>
+                <circle class="acc" cx="300" cy="225" r="11" stroke="none"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Diplomacy</span><span class="meta">27 Sep 2026</span></div>
+            <h3 class="card__title">The Handshake</h3>
+          </a>
+        </article>
+
+        <!-- 5 -->
+        <article class="card card--third reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="Scales of justice." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M300 118 V358" stroke-width="6"/>
+                <circle cx="300" cy="110" r="11"/>
+                <path d="M240 380 H360" stroke-width="6"/>
+                <path d="M300 358 L272 380 H328 Z"/>
+                <path d="M180 150 H420" stroke-width="6"/>
+                <path d="M180 150 L150 220 M180 150 L210 220"/>
+                <path d="M140 220 H220 M140 220 a40 22 0 0 0 80 0"/>
+                <path class="acc" d="M420 150 L390 220 M420 150 L450 220"/>
+                <path class="acc" d="M380 220 H460 M380 220 a40 22 0 0 0 80 0"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Law</span><span class="meta">20 Sep 2026</span></div>
+            <h3 class="card__title">Terms and Conditions</h3>
+          </a>
+        </article>
+
+        <!-- 6 -->
+        <article class="card card--half reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A megaphone with sound waves." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M182 200 L360 140 L360 300 L182 240 Z"/>
+                <rect x="196" y="240" width="46" height="72" rx="10"/>
+                <rect x="360" y="150" width="34" height="140" rx="6"/>
+                <path class="acc" d="M432 172 a92 92 0 0 1 0 106" stroke-width="5"/>
+                <path d="M464 150 a126 126 0 0 1 0 150" stroke-width="5"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Protest</span><span class="meta">13 Sep 2026</span></div>
+            <h3 class="card__title">A Louder Room</h3>
+          </a>
+        </article>
+
+        <!-- 7 -->
+        <article class="card card--half reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A chess king standing beside a smaller pawn." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M300 84 V126 M280 105 H320"/>
+                <path d="M300 126 L262 168 H338 Z"/>
+                <path d="M300 168 q-54 24 -54 112 q0 58 54 58 q54 0 54 -58 q0 -88 -54 -112 z"/>
+                <path d="M242 338 H358 M228 360 H372"/>
+                <circle class="acc" cx="432" cy="250" r="26" stroke="none"/>
+                <circle class="acc" cx="432" cy="250" r="26"/>
+                <path class="acc" d="M432 276 q-32 16 -32 58 q0 24 32 24 q32 0 32 -24 q0 -42 -32 -58 z"/>
+                <path class="acc" d="M398 358 H466 M386 378 H478"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Power</span><span class="meta">06 Sep 2026</span></div>
+            <h3 class="card__title">The Endgame</h3>
+          </a>
+        </article>
+
+        <!-- 8 -->
+        <article class="card card--wide reveal">
+          <a class="card__link" href="#archive">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="A globe beside a rising thermometer." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="250" cy="230" r="120"/>
+                <ellipse cx="250" cy="230" rx="50" ry="120" stroke-width="4"/>
+                <path d="M130 230 H370"/>
+                <path d="M152 182 q98 40 196 0" stroke-width="4"/>
+                <path d="M152 278 q98 -40 196 0" stroke-width="4"/>
+                <path d="M400 120 V320" stroke-width="5"/>
+                <circle cx="400" cy="342" r="24"/>
+                <path d="M420 160 h16 M420 205 h16 M420 250 h16" stroke-width="4"/>
+                <path class="acc" d="M400 322 V198" stroke-width="9"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Climate</span><span class="meta">30 Aug 2026</span></div>
+            <h3 class="card__title">Fair Warning</h3>
+          </a>
+        </article>
+
+        <!-- CTA tile -->
+        <article class="card card--narrow reveal">
+          <a class="card__link" href="#subscribe">
+            <figure class="plate">
+              <svg class="plate__art" viewBox="0 0 600 450" role="img" aria-label="An envelope." fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="150" y="150" width="300" height="180" rx="6"/>
+                <path d="M150 168 L300 268 L450 168"/>
+                <path class="acc" d="M150 312 L246 226 M450 312 L354 226" stroke-width="4"/>
+              </svg>
+            </figure>
+            <div class="card__meta"><span class="tag">Newsletter</span><span class="meta">Weekly</span></div>
+            <h3 class="card__title">One cartoon, every Friday</h3>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATEMENT ================= -->
+  <section class="statement" id="about">
+    <div class="container grid statement__grid">
+      <div class="statement__side reveal">
+        <p class="eyebrow">The desk</p>
+      </div>
+      <div class="statement__body reveal">
+        <h2>Drawn the day it happens.</h2>
+        <div class="prose">
+          <p>INKWIRE is a one-person cartoon desk. Every drawing is made by hand, in ink, on the day the story breaks — no committee, no house style, no press office to please. If a week passes without a cartoon worth keeping, the week passes.</p>
+          <p>Drawings are free to republish with a credit line. The archive is permanent, so a cartoon about an election still reads years later as a record of how the argument sounded at the time.</p>
+        </div>
+        <dl>
+          <div><dt>Founded</dt><dd>2019</dd></div>
+          <div><dt>Cartoons filed</dt><dd>214</dd></div>
+          <div><dt>Cadence</dt><dd>Weekly, Fridays</dd></div>
+          <div><dt>Medium</dt><dd>Ink on paper</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SUBSCRIBE ================= -->
+  <section class="subscribe" id="subscribe">
+    <div class="container">
+      <div class="subscribe__inner reveal">
+        <div>
+          <p class="eyebrow" style="margin-bottom:1rem">The Friday drawing</p>
+          <h2>One cartoon, every Friday.</h2>
+          <p class="prose">A single new drawing and three lines of context, in your inbox before the weekend. No tracking, no noise, unsubscribe in one click.</p>
+        </div>
+        <form action="mailto:desk@inkwire.example" method="post" enctype="text/plain">
+          <label for="email">Email address</label>
+          <div class="actions" style="gap:0.75rem">
+            <input id="email" name="email" type="email" required placeholder="you@example.com" autocomplete="email" />
+            <button class="btn" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__col">
+      <p class="footer__brand">INKWIRE</p>
+      <p class="meta">Political cartoons, drawn in ink.</p>
+    </div>
+    <nav class="footer__links" aria-label="Footer">
+      <a href="#archive">Archive</a>
+      <a href="#about">About</a>
+      <a href="#subscribe">Subscribe</a>
+      <a href="mailto:desk@inkwire.example">Contact</a>
+    </nav>
+    <div class="footer__note">
+      <p>Independent cartoon desk. Drawings are original and free to republish with credit. Set in IBM Plex and Newsreader. This is a static site — the subscribe form opens your mail client.</p>
+      <p>&copy; <span id="year">2026</span> INKWIRE</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Theme: honour the saved choice, otherwise follow the OS.
+  (function () {
+    var root = document.documentElement;
+    var saved = null;
+    try { saved = localStorage.getItem("inkwire-theme"); } catch (e) {}
+    if (saved) root.setAttribute("data-theme", saved);
+
+    var btn = document.getElementById("themeToggle");
+    btn.addEventListener("click", function () {
+      var isDark = root.getAttribute("data-theme") === "dark" ||
+        (!root.hasAttribute("data-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      var next = isDark ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("inkwire-theme", next); } catch (e) {}
+    });
+  })();
+
+  // Scroll-entry reveal, disabled for reduced motion.
+  (function () {
+    var items = document.querySelectorAll(".reveal");
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || !("IntersectionObserver" in window)) {
+      items.forEach(function (el) { el.classList.add("is-in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    items.forEach(function (el) { io.observe(el); });
+  })();
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
